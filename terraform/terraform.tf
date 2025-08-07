@@ -30,9 +30,7 @@ terraform {
     bucket = "vprofileactions202598" 
     key    = "terraform.tfstate"
     region = "us-east-1"
-  }
-
-  
+  } 
 }
 ##
 ##
