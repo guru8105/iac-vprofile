@@ -35,9 +35,4 @@ module "eks" {
       desired_size = 1
     }
   }
-
- depends_on = [
-    module.eks.aws_eks_cluster.this,
-    module.eks.time_sleep.this
-  ]
 }
